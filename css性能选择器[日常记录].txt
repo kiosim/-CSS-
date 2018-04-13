@@ -1,3 +1,12 @@
 优化css选择器
 Google 资深web开发工程师 Steve Souders 对 CSS 选择器的执行效率从高到低做了一个排序：
-1.id选择器（#myid） 2.类选择器（.myclassname） 3.标签选择器（div,h1,p） 4.相邻选择器（h1+p） 5.子选择器（ul < li） 6.后代选择器（li a） 7.通配符选择器（*） 8.属性选择器（a[rel=”external”]） 9.伪类选择器（a:hover, li:nth-child） 根据以上「选择器匹配」与「选择器执行效率」原则，我们可以通过避免不恰当的使用，提升 CSS 选择器性能。
+1.id选择器（#myid）
+2.类选择器（.myclassname）
+3.标签选择器（div,h1,p）
+4.相邻选择器（h1+p）
+ 5.子选择器（ul < li）
+ 6.后代选择器（li a）
+ 7.通配符选择器（*）
+ 8.属性选择器（a[rel=”external”]）
+ 9.伪类选择器（a:hover, li:nth-child）
+ 根据以上「选择器匹配」与「选择器执行效率」原则，我们可以通过避免不恰当的使用，提升 CSS 选择器性能。
